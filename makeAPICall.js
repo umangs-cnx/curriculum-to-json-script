@@ -6,7 +6,7 @@ const headers = {
   access_token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImN1cmF0b3JAY3liZXJuZXR5eC5jb20iLCJpYXQiOjE1NjcwNjUyMDd9.kippKdiFSPR18kC1q4qplWs9S3AgmOUKi0Adp7iXFss'
 };
 class MakeAPICall {
-  async makeCall(additionalUrl = '') {
+  async getGroup(additionalUrl = '') {
     try {
       const response = await axios.get(
         baseURL + additionalUrl,
