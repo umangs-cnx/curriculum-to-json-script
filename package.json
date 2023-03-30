@@ -4,7 +4,7 @@
   "description": "This script is used to fetch all the curriculum data and convert it into a JSON",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
