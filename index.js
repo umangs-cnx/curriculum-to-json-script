@@ -46,7 +46,6 @@ async function start() {
 
     curriculumData[i].grades = grades;
   }
-  console.log(JSON.stringify(curriculumData));
   exportToJSON.writeToFile(JSON.stringify(curriculumData));
 }
 start();
